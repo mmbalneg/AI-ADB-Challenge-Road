@@ -1,0 +1,96 @@
+{
+  "rf": {
+    "Maharashtra": {
+      "params": {
+        "nEstimators": 200,
+        "maxDepth": 24,
+        "minSamplesLeaf": 5,
+        "minSamplesSplit": 10,
+        "maxFeatures": "0.5",
+        "maxSamples": 0.7
+      },
+      "holdoutMAE": 5.09
+    },
+    "Thailand": {
+      "params": {
+        "nEstimators": 300,
+        "maxDepth": 16,
+        "minSamplesLeaf": 15,
+        "minSamplesSplit": 5,
+        "maxFeatures": "0.75",
+        "maxSamples": 0.85
+      },
+      "holdoutMAE": 6.08
+    }
+  },
+  "gbm": {
+    "Maharashtra": {
+      "params": {
+        "nEstimators": 150,
+        "learningRate": 0.05,
+        "maxDepth": 3,
+        "minSamplesLeaf": 20,
+        "subsample": 0.8
+      },
+      "holdoutMAE": 5.25
+    },
+    "Thailand": {
+      "params": {
+        "nEstimators": 300,
+        "learningRate": 0.03,
+        "maxDepth": 4,
+        "minSamplesLeaf": 15,
+        "subsample": 0.9
+      },
+      "holdoutMAE": 6.16
+    }
+  },
+  "knn": {
+    "Maharashtra": {
+      "params": {
+        "k": 25,
+        "weights": "distance"
+      },
+      "holdoutMAE": 5.04
+    },
+    "Thailand": {
+      "params": {
+        "k": 40,
+        "weights": "uniform"
+      },
+      "holdoutMAE": 6.17
+    }
+  },
+  "ridge": {
+    "Maharashtra": {
+      "params": {
+        "alpha": 50
+      },
+      "holdoutMAE": 5.54
+    },
+    "Thailand": {
+      "params": {
+        "alpha": 50
+      },
+      "holdoutMAE": 6.29
+    }
+  },
+  "dt": {
+    "Maharashtra": {
+      "params": {
+        "maxDepth": 6,
+        "minSamplesLeaf": 25,
+        "minSamplesSplit": 10
+      },
+      "holdoutMAE": 5.5
+    },
+    "Thailand": {
+      "params": {
+        "maxDepth": 6,
+        "minSamplesLeaf": 25,
+        "minSamplesSplit": 10
+      },
+      "holdoutMAE": 6.5
+    }
+  }
+}
