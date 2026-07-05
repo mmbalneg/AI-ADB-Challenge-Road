@@ -9,3 +9,4 @@ an interpretable AI/ML peer model to create a Speed Safety Score, Priority Score
 outputs that governments can use for review and intervention planning.
 
 For Interactive Dashboard visit https://challenge.mbregalsolutions.com
+Other Interactive Dashboard can be viewed on the streamlit-app. just run the windows batch file. (run.bat)
